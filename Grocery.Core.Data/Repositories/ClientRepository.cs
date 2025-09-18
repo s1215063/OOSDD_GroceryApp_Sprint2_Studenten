@@ -8,6 +8,7 @@ namespace Grocery.Core.Data.Repositories
     {
         private readonly List<Client> clientList;
 
+        
         public ClientRepository()
         {
             clientList = [
@@ -19,12 +20,14 @@ namespace Grocery.Core.Data.Repositories
 
         public Client? Get(string email)
         {
-            return clientList[0];
+            Client? client = clientList.Find(c => c.EmailAddress == email);
+            return client;
         }
 
         public Client? Get(int id)
         {
-            return clientList[0];
+            Client? client = clientList.Find(c => c.Id == id);
+            return client;
         }
 
         public List<Client> GetAll()
