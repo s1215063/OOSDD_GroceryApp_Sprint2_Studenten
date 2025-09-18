@@ -31,3 +31,13 @@ Wanneer een nieuwe versie bijna klaar is, wordt er een release branch aangemaakt
 
 ## hotfix/…
  Voor dringende fouten in de main branch die snel opgelost moeten worden, zonder te wachten op een nieuwe release.
+
+
+
+
+## In deze versie zijn UC5 Product op boodschappenlijst plaatsen en UC6 Inloggen uitgewerkt en volledig functioneel.
+## UC5:
+Er is nu de mogelijkehid om een product te plaatsen op je booschappenlijst als deze nog niet op het lijstje staat.
+
+## UC6:
+Een inlogscherm met gebruikersauthenticatie is toegevoegd.
